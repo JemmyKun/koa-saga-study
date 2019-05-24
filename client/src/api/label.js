@@ -1,4 +1,4 @@
-import axios from "axios";
+import { axios } from "./api-config";
 
 const getLabelList = () => {
   return axios.get("/api/label/list");

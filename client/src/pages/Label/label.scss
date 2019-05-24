@@ -1,0 +1,47 @@
+.label-container {
+  height: 100%;
+  padding: 20px;
+  .add-box {
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    .add-input {
+      width: 400px;
+      margin-right: 20px;
+    }
+  }
+  .label-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .label-item {
+      position: relative;
+      display: inline-block;
+      width: 150px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      font-size: 16px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #348bff;
+      color: #fff;
+      background: #348bff;
+      border-radius: 5px;
+      &[data-status="1"] {
+        color: #348bff;
+        background: #fff;
+      }
+      .delete-btn {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: red;
+        cursor: pointer;
+        font-size: 18px;
+      }
+    }
+  }
+}

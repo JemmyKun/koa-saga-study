@@ -41,6 +41,7 @@ module.exports = {
     port: "3006",
     hot: true,
     compress: true,
+    quiet: false,
     noInfo: false,
     inline: true,
     stats: {

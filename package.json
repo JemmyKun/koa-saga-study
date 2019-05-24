@@ -1,0 +1,24 @@
+{
+  "name": "koa-saga-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clientStart": "cd client && npm run start",
+    "serverStart": "cd server && npm run server",
+    "start": "npm run clientStart & npm run serverStart",
+    "build": "cd client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JemmyKun/koa-saga-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JemmyKun/koa-saga-study/issues"
+  },
+  "homepage": "https://github.com/JemmyKun/koa-saga-study#readme"
+}

@@ -1,7 +1,44 @@
+@import "~antd/dist/antd.css";
+@import "./reset.scss";
+#root {
+  height: 100%;
+}
 .app-container {
-  display: flex;
-  color: red;
-  h1 {
-    color: green;
+  height: 100%;
+  .app-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    color: #fff;
+    background: #0f8aff;
+    .logo {
+      height: 100%;
+      line-height: 60px;
+      width: 300px;
+      padding-left: 30px;
+      font-size: 24px;
+    }
+    .link-box {
+      height: 100%;
+      width: calc(100% - 300px);
+      line-height: 60px;
+      .link-item {
+        display: inline-block;
+        height: 60px;
+        line-height: 60px;
+        padding: 0 20px;
+        margin: 0 10px;
+        color: #5e5e5e;
+        font-size: 18px;
+        &.active {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .app-content {
+    position: relative;
+    height: calc(100% - 60px);
   }
 }

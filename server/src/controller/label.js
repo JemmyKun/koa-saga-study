@@ -149,7 +149,6 @@ class Label {
     }
     await selectData(param)
       .then(data => {
-        console.log("select data!!!", data);
         ctx.body = {
           status: 200,
           content: data,
